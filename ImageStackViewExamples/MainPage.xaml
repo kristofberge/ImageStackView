@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:imageStackView="clr-namespace:ImageStackView;assembly=ImageStackView"
+    x:Class="ImageStackViewExamples.MainPage">
+    <StackLayout
+        Orientation="Vertical"
+        Padding="0, 50, 0, 0">
+        <Label
+            Text="Horizontal 3 layers"
+            VerticalOptions="Start"/>
+        
+        <imageStackView:ImageStackView
+            VerticalOptions="Start"
+            HorizontalOptions="Fill"
+            HeightRequest="400"
+            Image="https://i0.wp.com/espalhafactos.com/wp-content/uploads/2013/05/jan.jpg"/>
+
+    </StackLayout>
+</ContentPage>
